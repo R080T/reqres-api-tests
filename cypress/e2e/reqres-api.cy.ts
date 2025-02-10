@@ -4,7 +4,6 @@ describe("Reqres API Tests", () => {
   // Test Case 1 – GET: List Users
   describe("GET - List Users", () => {
     it("should return a list of users with correct details", () => {
-      // We request all users by setting per_page=12 so that the total equals the number of users returned.
       cy.request("GET", "https://reqres.in/api/users?page=2").then(
         (response) => {
           // Assert status code 200
