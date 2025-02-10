@@ -48,7 +48,7 @@ Both test cases include optional bonus validations.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/saucedemo-cypress-tests.git
+   git clone https://github.com/R080T/saucedemo-cypress-tests.git
    cd saucedemo-cypress-tests
 
    ```
