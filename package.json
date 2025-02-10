@@ -1,0 +1,11 @@
+{
+  "name": "reqres-api-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "headless": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^12.0.0",
+    "typescript": "^4.9.0"
+  }
+}
